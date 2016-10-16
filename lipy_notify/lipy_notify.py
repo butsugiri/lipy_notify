@@ -18,7 +18,8 @@ class LipyNotify(object):
 
     def send(self, message):
         if self.token is None:
-            sys.stderr.write("Message can't be sent. You must set your authorization token with set_token()")
+            sys.stderr.write(
+                "Message can't be sent. You must set your authorization token with set_token method")
         else:
             payload = {"message": message}
             requests.post(self.url, data=payload, headers=self.headers)
