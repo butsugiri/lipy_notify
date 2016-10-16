@@ -21,3 +21,11 @@ line.send("message")
 ```
 
 ...and you are good to go!
+
+# Misc
+
+try:
+
+```Python
+line.send_cat_image()
+```
