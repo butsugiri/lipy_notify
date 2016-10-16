@@ -13,11 +13,11 @@ Firstly, get your personal access token from
 Then:
 
 ```Python
-    from lipy_notify import LipyNotify
+from lipy_notify import LipyNotify
 
-    line = LipyNotify
-    line.set_token("your_personal_access_token")
-    line.send("message")
+line = LipyNotify
+line.set_token("your_personal_access_token")
+line.send("message")
 ```
 
 ...and you are good to go!
